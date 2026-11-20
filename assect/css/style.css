@@ -1,0 +1,1073 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.zagolovok {
+    margin-top: 160px;
+    margin-bottom: 60px;
+}
+
+.zagolovok h1 {
+    color: #EA1A1A;
+}
+
+.zagolovok h2 {
+    color: rgb(37 36 36 / 50%);
+}
+
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Noto Serif JP-Bold';
+    src: url(../fonts/NotoSerifJP-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+a {
+    font-size: 18px;
+    font-family: 'Montserrat-Regular';
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Noto Serif JP-Bold';
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Raleway-Regular';
+
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Montserrat-Regular';
+}
+
+
+/* header start */
+header {
+    position: fixed;
+    width: 100%;
+    top: 20px;
+    z-index: 999;
+}
+
+.header-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-block nav {
+    display: flex;
+    gap: 30px;
+    background-color: #252424;
+    padding: 27px 60px;
+    border-radius: 50px;
+
+}
+.header-block nav a:hover{
+    color: #EA1A1A;
+
+}
+
+.header-block nav a {
+    color: #E3DDDD;
+}
+
+.btv {
+    color: #E3DDDD;
+    background-color: #252424;
+    padding: 27px 60px;
+    border-radius: 50px;
+    font-family: 'Montserrat-SemiBold';
+}
+.btv:hover{
+    background: #EA1A1A;
+    color: #252424;
+}
+
+
+/* header end */
+
+/* main start */
+.main-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 200px;
+}
+
+.main-txt {
+    z-index: 4;
+}
+
+.vetka-1 {
+    position: absolute;
+    top: 15px;
+    left: -400px;
+}
+
+.main-txt h1 {
+    font-size: 96px;
+    line-height: 100%;
+    font-family: 'Raleway-Bold';
+
+}
+
+.main-txt h2 {
+    font-size: 24px;
+    margin-top: 32px;
+    margin-bottom: 64px;
+    font-family: 'Montserrat-Regular';
+}
+
+.main-txt .btv {
+    color: #252424;
+    background-color: #EA1A1A;
+    padding: 24px 80px;
+    font-size: 18px;
+}
+.main-txt .btv:hover{
+    background-color: #252424;
+    color: #EA1A1A;
+}
+
+.main-img img {
+    width: 790px;
+    height: 785px;
+}
+
+/* main end */
+
+/* about start */
+.about {
+    position: relative;
+}
+
+.about-block {
+    padding-top: 120px;
+    display: flex;
+    gap: 220px;
+    align-items: center;
+
+}
+
+.vetka-2 {
+    position: absolute;
+    top: -100px;
+    right: 0;
+}
+
+.vetka-2 img {
+    width: 800px;
+
+}
+
+.about-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+.schet {
+    display: flex;
+    align-items: end;
+    gap: 10px;
+}
+
+.schet p {
+    font-size: 20px;
+    font-family: 'Montserrat-SemiBold';
+}
+
+/* about end */
+
+/* katalog start */
+.eksperti {
+    position: relative;
+}
+.katalog {
+    padding: 0 210px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 86px;
+    align-items: start;
+}
+
+.card {
+    display: flex;
+    gap: 100px;
+}
+
+
+.centr-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.card img {
+    width: 280px;
+}
+
+.card a {
+    font-size: 20px;
+    color: #252424;
+}
+.card a:hover{
+    transform: translateY(-10px);
+}
+
+.card span {
+    font-weight: bold;
+}
+
+
+
+.ptic1 {
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.ptic2 {
+    position: absolute;
+    left: 0;
+    top: 600px;
+
+}
+
+.ptic2 img {
+    width: 130px;
+    height: 116px;
+}
+
+.ptic3 {
+    position: absolute;
+    right: 100px;
+    top: 700px;
+}
+
+.ptic4 {
+    position: absolute;
+    bottom: -450px;
+    left: 10px;
+
+}
+
+.ptic4 img {
+    width: 148px;
+    height: 132px;
+}
+
+.works-prepod {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.45);
+    z-index: 200;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(4px);
+
+}
+
+#yanis:target {
+    display: flex;
+
+}
+#mark:target {
+    display: flex;
+
+}
+#dim:target {
+    display: flex;
+
+}
+#lev:target {
+    display: flex;
+
+}
+#lisa:target {
+    display: flex;
+
+}
+#eva:target {
+    display: flex;
+
+}
+
+.works-block{
+    display: flex;
+    align-items: center;
+    gap: 110px;
+   position: relative; 
+}
+.block-ocnov{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    background-color: #E3DDDD;
+    height: 610px;
+    padding: 0 40px;
+    border-radius: 50px;
+}
+.block-ocnov img {
+    width: 280px;
+}
+
+.block-ocnov p {
+    font-size: 20px;
+}
+
+.block-ocnov span {
+    font-weight: bold;
+}
+
+.block-primer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #252424;
+    padding: 10px 80px;
+    border-radius: 50px;
+    text-align: center;
+    gap: 50px;
+    align-items: center;
+
+}
+.block-primer {
+    display: flex;
+}
+
+.block-primer p {
+    font-size: 20px;
+    width: 718px;
+    color: #ffffff;
+
+}
+.right-img{
+    display: flex;
+    gap: 40px;
+    padding-top:30px ;
+}
+.vixod-white{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+/* katalog end */
+
+/* kyrsi start */
+.kirs {
+    margin-top: 500px;
+}
+
+.kyrsi {
+    position: relative;
+}
+
+.kyrsi .zagolovok {
+    position: absolute;
+    border: 2px solid rgb(234 26 26 / 50%);
+    border-radius: 80px;
+    padding: 0 47px;
+    padding-top: 88px;
+    padding-bottom: 64px;
+    top: -160px;
+}
+
+.katalog {
+    position: relative;
+    width: 1500px;
+    height: 758px;
+}
+
+.raznovid1 {
+    display: inline-block;
+    transition: filter 0.3s ease;
+    position: absolute;
+    top: 0;
+    right: 300px;
+
+}
+.k:hover{
+     filter: brightness(0.3);
+}
+.vipl{
+    display: none;
+}
+
+.raznovid1:hover .vipl{
+    display: flex;
+}
+.raznovid2:hover .vipl{
+    display: flex;
+}
+.raznovid3:hover .vipl{
+    display: flex;
+}
+.raznovid4:hover .vipl{
+    display: flex;
+}
+.raznovid5:hover .vipl{
+    display: flex;
+}
+.raznovid6:hover .vipl{
+    display: flex;
+}
+
+.naz{
+    text-align: center;
+}
+
+.raznovid1 img {
+    position: relative;
+}
+
+.but {
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+    display: flex;
+}
+
+.raznovid2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+
+.pip {
+    width: 247px;
+    height: 315px;
+}
+
+.raznovid2:hover {
+    display: flex;
+
+}
+
+.raznovid2 img {
+    position: relative;
+}
+
+
+
+.raznovid3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+
+
+.raznovid3:hover {
+    display: flex;
+
+}
+
+.raznovid3 img {
+    position: relative;
+}
+
+
+.ykrash {
+    position: absolute;
+    top: -175px;
+}
+
+.raznovid4 {
+    position: absolute;
+    bottom: 0;
+    left: 360px;
+
+}
+
+
+
+.raznovid4:hover {
+    display: flex;
+
+}
+
+.raznovid4 img {
+    position: relative;
+}
+
+
+.raznovid5 {
+    position: absolute;
+    bottom: 0;
+    right: 280px;
+
+}
+
+
+
+.raznovid5:hover {
+    display: flex;
+
+}
+
+.raznovid5 img {
+    position: relative;
+}
+
+
+.raznovid6 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+.pop {
+    height: 420px;
+    width: 267px;
+}
+
+.raznovid6:hover {
+    display: flex;
+
+}
+
+.raznovid6 img {
+    position: relative;
+}
+
+
+.kyrs {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.45);
+    z-index: 200;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(4px);
+
+}
+.raznovid1 .naz{
+    position: absolute;
+    top: 220px;
+    right: 220px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Montserrat-SemiBold';
+    color: #E3DDDD;
+}
+.raznovid2 .naz{
+    position: absolute;
+    top: 130px;
+    right: 40px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Montserrat-SemiBold';
+    color: #E3DDDD;
+}
+.raznovid3 .naz{
+    position: absolute;
+    top: 130px;
+    left: 90px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Montserrat-SemiBold';
+    color: #E3DDDD;
+}
+.raznovid4 .naz{
+    position: absolute;
+    top: 130px;
+    right: 140px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Montserrat-SemiBold';
+    color: #E3DDDD;
+}
+.raznovid5 .naz{
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Montserrat-SemiBold';
+    color: #E3DDDD;
+}
+.raznovid6 .naz{
+    position: absolute;
+    top: 180px;
+    right: 10px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Montserrat-SemiBold';
+    color: #E3DDDD;
+}
+
+#kyrs-1:target {
+    display: flex;
+
+}
+
+#kyrs-2:target {
+    display: flex;
+
+}
+#kyrs-3:target {
+    display: flex;
+
+}
+#kyrs-4:target {
+    display: flex;
+
+}
+#kyrs-5:target {
+    display: flex;
+
+}
+#kyrs-6:target {
+    display: flex;
+
+}
+
+.kyrs-block {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 1481px;
+    height: 868px;
+    gap: 130px;
+    background-color: #E3DDDD;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.osnov {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+}
+
+.osnov h1 {
+    margin-bottom: 55px;
+}
+
+.osnov-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.osnov-txt span {
+    font-size: 20px;
+    font-family: 'Montserrat-SemiBold';
+}
+.osnov-txt p {
+    font-size: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 210px;
+    right: 50px;
+    z-index: 3;
+}
+
+.forma {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 18px;
+    font-family: 'Raleway-Regular';
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.forma input {
+    border: 0.5px solid #252424;
+    border-radius: 30px;
+    width: 483px;
+    height: 51px;
+    padding: 17px 18px;
+    font-size: 20px;
+    font-family: 'Raleway-Regular';
+    margin-bottom: 20px;
+}
+
+.prover {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.prover p {
+    font-size: 16px;
+    color: #252424;
+    font-family: 'Montserrat-Regular';
+}
+
+.prover a {
+    font-size: 16px;
+    color: #252424;
+    font-family: 'Montserrat-Regular';
+    text-decoration: underline;
+}
+.prover a:hover{
+    color: #EA1A1A;
+}
+
+.prover input {
+    width: 20px;
+    height: 20px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 483px;
+    height: 53px;
+    background: #252424;
+    color: #E3DDDD;
+    border-radius: 50px;
+    margin-top: 35px;
+    font-size: 18px;
+}
+.btn:hover{
+    background-color: #EA1A1A;
+    color: #252424;
+}
+
+.krest {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    z-index: 3;
+}
+
+.fon {
+    position: absolute;
+    right: 0;
+
+}
+
+.decor {
+    position: absolute;
+    left: 10px;
+    top: 140px;
+}
+
+/* kyrsi end */
+
+/* works students start*/
+.works-studets {
+    margin-top: 160px;
+    margin-bottom: 1800px;
+}
+
+.works {
+    position: relative;
+    margin-top: 200px;
+}
+
+.ikon {
+    position: relative;
+    width: 636px;
+    height: 708px;
+}
+
+.ikon:hover .star {
+    position: absolute;
+    z-index: 0;
+}
+
+.kryt {
+    position: absolute;
+    z-index: 3;
+    height: 800px;
+}
+
+.rez {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+
+}
+
+.rez img {
+    width: 400px;
+}
+
+.star {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+
+}
+
+.star img {
+    width: 400px;
+}
+
+.ikon-1 {
+    position: absolute;
+    left: -100px;
+    top: -180px;
+}
+
+.ikon-1 .kryt {
+    left: 0px;
+    top: 0px;
+}
+
+.ikon-2 {
+    position: absolute;
+    right: 50px;
+    top: -200px;
+}
+
+.ikon-2 .kryt {
+    top: 10px;
+    left: 30px;
+}
+
+.ikon-3 {
+    position: absolute;
+    left: 300px;
+    top: 250px;
+}
+
+.ikon-3 .kryt {
+    top: 200px;
+    left: 70px;
+}
+
+.ikon-4 {
+    position: absolute;
+    left: -70px;
+    top: 700px;
+}
+
+.ikon-4 .kryt {
+    top: 100px;
+    right: -110px;
+}
+
+.ikon-5 {
+    position: absolute;
+    right: 100px;
+    top: 600px;
+}
+
+.ikon-5 .kryt {
+    top: 110px;
+    left: 130px;
+}
+
+/* works students end */
+
+/* Otzivi start */
+.otzivi{
+    position: relative;
+    margin-bottom: 160px;
+}
+.govor{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    width: 435px;
+    height: 483px;
+    border-radius: 30px;
+    border: 1px solid #252424;
+    align-items: center;
+    justify-content: space-between;
+}
+.nik{
+    display: flex;
+    padding: 22px;
+    align-items: center;
+    gap: 20px;
+}
+.nik p{
+    font-weight: 600;
+}
+hr{
+  height: 2px;
+  color: #EA1A1A50; 
+  width: 100%;
+} 
+.smisl{
+    flex-grow: 1;
+padding: 31px 38px;
+font-size: 18px;
+color: black;
+}
+.itog{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 31px 38px;
+    width: 359px;
+    height: 29px;
+    
+}
+input[name="slider"] {
+    display: none;
+}
+.sl label{
+    background-color: #EA1A1A50;
+    border-radius: 100px;
+    opacity: 0.7;
+    cursor: pointer;
+    width: 82px;
+    height: 11px;
+}
+.sl{
+    position: absolute;
+    top: 800px;
+    display: flex;
+    gap: 30px;
+    left: 650px;
+}
+.sl label:hover{
+    background-color: #EA1A1A;
+    transform: translateY(-5px);
+}
+
+/* Otzivi end */
+
+/* footer start */
+footer{
+    background-color: #252424;
+}
+.footer-block{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.polovin-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 75px;
+    padding-bottom: 40px;
+}
+.polovin-1 a{
+    color: #E3DDDD;
+}
+.polovin-1 a:hover{
+    color: #EA1A1A;
+}
+.fot-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+}
+.nav-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.nav-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.soc{
+    display: flex;
+    gap: 10px;
+}
+.soc img:hover{
+    transform: rotate(30deg);
+}
+hr{
+    width: 85%;
+}
+.polovin-2{
+    padding-top: 20px;
+    display: flex;
+    color: #E3DDDD;
+    padding-bottom: 75px;
+}
+.podrob{
+    display: flex;
+    font-size: 16px;
+    flex-direction: row;
+}
+.podrob a{
+    color: #E3DDDD;
+    font-size: 16px;
+}
+.podrob a:hover{
+    color: #EA1A1A;
+}
+.proiz{
+    text-align: end;
+    position: absolute;
+    right: 0;
+    bottom: 90px;
+}
+/* footer end */
